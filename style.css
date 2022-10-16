@@ -394,7 +394,7 @@ opacity:0.8;
 
 
 /* Container media queries */
-@media (min-width: 500px) {
+@media (min-width: 800px) {
   .container {
     width: auto;
   }
@@ -407,7 +407,7 @@ opacity:0.8;
   }
 }
 
-@media (min-width: 80px) {
+@media (min-width: 800px) {
   .container {
     width: auto;
   }
