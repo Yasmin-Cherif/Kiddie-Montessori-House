@@ -281,7 +281,7 @@ width:400px;
 
 .cards3 {
 		display:grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-gap: -50px;
 		margin-left:20px;
 }
