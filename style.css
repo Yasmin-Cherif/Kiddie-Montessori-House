@@ -161,8 +161,8 @@ width:auto;
 .cards{
 	font-size: 20px;
 margin-left:100px;
-margin-right:100px;
-	margin-bottom:50px;
+margin-bottom:50px;
+margin:auto;
 }
 
 
@@ -437,9 +437,11 @@ opacity:0.8;
 @media (max-width: 800px) {
   .cards {
     grid-template-columns: 1fr 1fr;
+    margin:auto;
   }
    .cards3 {
     grid-template-columns: 1fr 1fr;
+    margin:auto;
   }
   
   .card-white {
