@@ -16,6 +16,8 @@ h1, h2, h3{
 	font-color: black;
 	text-align:center;
 	margin:auto;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 .header{
@@ -25,8 +27,8 @@ h1, h2, h3{
 }
 
 .back a{
-	font-color:Blue;
-	position:absolute;
+	font-color:#55adc8;
+
 }
 
 
@@ -35,8 +37,7 @@ h1, h2, h3{
 	text-align:center;
 	margin: auto;
   	width: 100%;
- 	padding: 10px;
-	
+ 	
 }
 
 .quote {
@@ -62,6 +63,7 @@ opacity:0.8;
 .gallery h1{
 	font-size: 40px;
 	text-color: black;
+	margin-top:50px;
 }
 
 .aboutus{
@@ -112,6 +114,7 @@ padding: 10px;
 
 .container {
 	width: 1360px;
+
 	margin: auto;
 
 }
@@ -142,6 +145,7 @@ width: 100%;
 	height:200px;
 	padding:300px 0;
 	text-align:center;
+	width: 1360px;
 }
 
 .banner h1{
@@ -153,7 +157,8 @@ width: 100%;
 
 .cards{
 	font-size: 20px;
-	
+	margin-left:110px;
+	margin-bottom:50px;
 }
 
 
@@ -211,7 +216,7 @@ a{
 }
 
 .wisdom a{
-	color: Blue;
+	color: #55adc8;
 }
 
 .footer{
@@ -271,7 +276,7 @@ width:400px;
 }
 
 .container a {
-	color:blue;
+	color: #55adc8;
 }
 
 
@@ -286,28 +291,29 @@ width:400px;
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 		grid-gap: -50px;
 		margin-left:20px;
+		margin-bottom:50px;
 }
 
 .card-class{
 background: white;
 box-shadow: 0 0 16px rgba(0,0,0,0.1);
 border-radius: 4px;
-width: 200px;
+width: 300px;
 text-align:center;
 padding: 10px;
-margin: 0px;
+margin-left: -20px;
 
 }
 
 .card-class img{
-	width: 200px;
-	height: 200px;
+	width: 300px;
+	height: 300px;
 	object-fit: cover;
 	border-radius: 4px;
 }
 
 .footer {
-  background: #404042;
+  background: #55adc8;
   text-align: center;
   padding: 24px 0;
 }
@@ -319,7 +325,7 @@ color: white;
 }
 
 .footer a:hover{
-	color:blue;
+	color:#000C66;
 }
 
 .contact p{
@@ -391,8 +397,12 @@ opacity:0.8;
 
 .header a{
 	color:white;
+	font-size:23px;
 }
 
+.program h3{
+	font-size:27px;
+}
 
 
 /* Container media queries */
@@ -418,7 +428,7 @@ opacity:0.8;
 
 /*end */
 
-@media (max-width: 800px) {
+@media (max-width: 790px) {
   .cards {
     grid-template-columns: 1fr;
   }
@@ -440,8 +450,8 @@ opacity:0.8;
 
  .banner{
  	width:auto;
-	 
-	}
+ }
+
  .quote{
  	width:auto;
  }
