@@ -435,10 +435,10 @@ opacity:0.8;
 
 @media (max-width: 800px) {
   .cards {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
    .cards3 {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   
   .card-white {
