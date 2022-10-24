@@ -8,6 +8,10 @@ body{
 	font-size: 20px;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 h1, h2, h3{
 	font-family: "Gaegu" ;
 	font-weight: 400;
@@ -37,7 +41,7 @@ h1, h2, h3{
 	background-size:100% 100%;
 	text-align:center;
 	margin: auto;
-  	width: 200%;
+  	width: 100%;
   	margin-left:10px;
  	
 }
