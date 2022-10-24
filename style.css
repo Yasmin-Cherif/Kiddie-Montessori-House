@@ -25,7 +25,6 @@ h1, h2, h3{
 	margin-bottom:10px;
 }
 
-h1,h2,h3 style=font-size:8vw
 
 .header{
 	font-family: "Gaegu";
@@ -476,4 +475,17 @@ opacity:0.8;
     width: auto;
   }
  
+}
+
+ @media screen and (max-width: 800px) { 
+  .banner h1 { 
+    font-size: 80px; 
+  } 
+
+   .banner h2 { 
+    font-size: 50px; 
+  } 
+   .banner h3 { 
+    font-size: 30px; 
+  } 
 }
