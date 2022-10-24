@@ -17,15 +17,15 @@ h1, h2, h3{
 	font-weight: 400;
 	line-height:1;
 	text-transform: capitalize;
-	font-size: 90 px;
+	/*font-size: 90 px;*/
 	font-color: black;
 	text-align:center;
 	margin:auto;
 	margin-top:10px;
 	margin-bottom:10px;
-	width:auto;
-	margin: auto;
 }
+
+h1,h2,h3 style=font-size:8vw
 
 .header{
 	font-family: "Gaegu";
