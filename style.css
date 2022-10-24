@@ -242,15 +242,18 @@ a{
 	color:black;
 	font-size: 8vw;
 	margin: 0;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+
 
 .banner h2{
 	color:black;
 	font-size: 4vh;
 	margin: 0;
 	margin-top:30px;
-	margin-bottom:30px;
+	margin-bottom:40px;
 	margin-left:90px;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .banner h3{
